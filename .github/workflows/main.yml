@@ -1,0 +1,14 @@
+on: [push]
+
+jobs:
+  waiter_job:
+    runs-on: charlie
+    name: Do wait
+    steps:
+    - name: Wait action step
+      id: waiter
+      uses: crackitty/fairly-reliable-pineapple@v1
+      with:
+        milliseconds: 500
+    - name: Get the output
+      run: echo "The time was ${{ steps.waiter.outputs.time }} when we started waiting"

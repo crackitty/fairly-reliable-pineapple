@@ -1,5 +1,6 @@
-name: 'Wait'
-description: 'Wait a designated number of milliseconds'
+name: 'wait-for-pineapple'
+author: 'Charlie Roche'
+description: 'Have a pineapple say hi after n milliseconds'
 inputs:
   milliseconds:  # id of input
     description: 'number of milliseconds to wait'

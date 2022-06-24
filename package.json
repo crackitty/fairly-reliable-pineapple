@@ -1,7 +1,7 @@
 {
-  "name": "javascript-action",
+  "name": "wait-for-pineapple-action",
   "version": "1.0.0",
-  "description": "JavaScript Action Template",
+  "description": "Waiter...",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",

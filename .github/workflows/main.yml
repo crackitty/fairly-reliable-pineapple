@@ -2,7 +2,7 @@ on: [push]
 
 jobs:
   waiter_job:
-    runs-on: charlie
+    runs-on: charlies-mac
     name: Do wait
     steps:
     - name: Wait action step
